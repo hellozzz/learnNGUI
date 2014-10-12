@@ -14,4 +14,4 @@ UIRoot、Label、Sprite、Panel、控件容器、Button、使用脚本监听Butt
 【HUD - Head Up Display】
 血条和名字的跟随3D角色、显示伤害和治疗效果、解析HUDText脚本参数、完成伤害和治疗效果跟随
 
-Unity 4.5.4 和 NGUI 3.6.8 @ Win7
+Unity4.5.4 & NGUI3.6.8 @ Win7
