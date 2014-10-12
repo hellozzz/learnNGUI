@@ -5,6 +5,8 @@ TagManager:
   tags:
   - 
   - Drag and Drop Root
+  - Cell
+  - knapsackItem
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX

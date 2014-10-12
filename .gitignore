@@ -227,11 +227,11 @@ Library/
 ExportedObj/
 obj/
 *.svd
-*.userprefs
+#*.userprefs #20141012
 /*.csproj
 *.pidb
 *.suo
-/*.sln
+#/*.sln #20141012
 *.user
 *.unityproj
 *.booproj
