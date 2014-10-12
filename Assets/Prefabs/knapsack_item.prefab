@@ -28,7 +28,7 @@ GameObject:
   - 65: {fileID: 6500000}
   - 114: {fileID: 11400000}
   m_Layer: 8
-  m_Name: knapsack_item10
+  m_Name: knapsack_item
   m_TagString: knapsackItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -85,6 +85,8 @@ MonoBehaviour:
   restriction: 0
   cloneOnDrag: 0
   pressAndHoldDelay: 1
+  sprite: {fileID: 11400004}
+  label: {fileID: 11400002}
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1

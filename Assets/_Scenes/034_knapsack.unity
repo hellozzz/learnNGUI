@@ -818,6 +818,8 @@ GameObject:
   - 4: {fileID: 803791900}
   - 114: {fileID: 803791901}
   - 114: {fileID: 803791902}
+  - 114: {fileID: 803791903}
+  - 65: {fileID: 803791904}
   m_Layer: 8
   m_Name: knapsack_bg
   m_TagString: Untagged
@@ -832,7 +834,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 803791899}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -14, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1823102024}
@@ -886,7 +888,7 @@ MonoBehaviour:
   mWidth: 400
   mHeight: 400
   mDepth: 0
-  autoResizeBoxCollider: 0
+  autoResizeBoxCollider: 1
   hideIfOffScreen: 0
   keepAspectRatio: 0
   aspectRatio: 1
@@ -931,10 +933,42 @@ MonoBehaviour:
   - {fileID: 231054402}
   - {fileID: 1172373646}
   - {fileID: 1870059168}
-  equipments:
-  - Boots
-  - Bracers
-  - Shoulders
+  equipmentSpriteName:
+  - Orc Armor - Boots
+  - Orc Armor - Bracers
+  - Orc Armor - Shoulders
+  item: {fileID: 100002, guid: 44d5df8e987821542a8ceb2b72c8b17a, type: 2}
+--- !u!114 &803791903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 803791899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b90fc8427bee38c478f5b2f6f0ae9580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 803791900}
+  scrollMomentum: {x: 0, y: 0, z: 0}
+  restrictWithinPanel: 0
+  contentRect: {fileID: 0}
+  dragEffect: 2
+  momentumAmount: 35
+  scale: {x: 1, y: 1, z: 0}
+  scrollWheelFactor: 0
+--- !u!65 &803791904
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 803791899}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 500, y: 500, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &897031267
 GameObject:
   m_ObjectHideFlags: 0
@@ -961,7 +995,7 @@ Transform:
   m_GameObject: {fileID: 897031267}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: .00625000009, y: .00625000009, z: .00625000009}
+  m_LocalScale: {x: .00477326987, y: .00477326987, z: .00477326987}
   m_Children:
   - {fileID: 422015697}
   - {fileID: 666054351}
