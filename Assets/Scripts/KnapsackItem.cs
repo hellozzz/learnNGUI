@@ -4,6 +4,16 @@ using System.Collections;
 // 实现拖拽释放效果
 public class KnapsackItem : UIDragDropItem {
 
+	public UISprite sprite;  // 引用当前item使用的Sprite
+	public UILabel label;	// 引用当然item右下角显示计数数字的label
+	private int count = 1;  // 记录当前计数，从有item时开始计数，即1
+
+	// 实现右下角数字累加
+	public void AddCount(int num = 1){
+		count += num;
+		label.text = count.ToString();
+	}
+
 	protected override void OnDragDropRelease (GameObject surface)
 	{
 		base.OnDragDropRelease (surface);
