@@ -1,8 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\KnapsackItem.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\NGUI\Scripts\Interaction\UIDragObject.cs">
     <Files>
-      <File FileName="Assets\Scripts\KnapsackItem.cs" Line="18" Column="46" />
+      <File FileName="Assets\Scripts\KnapsackItem.cs" Line="21" Column="34" />
+      <File FileName="Assets\Scripts\Knapsack.cs" Line="30" Column="12" />
+      <File FileName="Assets\NGUI\Scripts\Internal\NGUITools.cs" Line="463" Column="22" />
+      <File FileName="Assets\NGUI\Scripts\Interaction\UIDragObject.cs" Line="15" Column="26" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
