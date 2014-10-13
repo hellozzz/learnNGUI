@@ -1,9 +1,9 @@
-﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{07733F7B-FA33-0BF8-5BFD-867911376C26}"
+# Visual Studio 2008
+
+Project("{29DA10C0-1FD4-2EF2-FA18-ABA81FC8A772}") = "learnNGUI", "Assembly-CSharp.csproj", "{07733F7B-FA33-0BF8-5BFD-867911376C26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{FF8D6EC7-6240-268D-DAAD-A8B395B6E7FC}"
+Project("{29DA10C0-1FD4-2EF2-FA18-ABA81FC8A772}") = "learnNGUI", "Assembly-CSharp-Editor.csproj", "{FF8D6EC7-6240-268D-DAAD-A8B395B6E7FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,7 +20,10 @@ Global
 		{FF8D6EC7-6240-268D-DAAD-A8B395B6E7FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF8D6EC7-6240-268D-DAAD-A8B395B6E7FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+		GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
@@ -42,7 +45,5 @@ Global
 		$3.inheritsScope = text/plain
 		$3.scope = text/plain
 	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
+
 EndGlobal
